@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.3" pages="2">
   <diagram name="图3-3" id="SFmPQN-QUfsM4tf-Z6S2">
     <mxGraphModel dx="1066" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -66,6 +66,58 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="38.5" y="70" as="targetPoint" />
             <mxPoint x="248.5" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CyAyQ5x-FfY8F36e_3UX" name="图3-4">
+    <mxGraphModel dx="1546" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="epAysZkqnSIW3r6k0jum-3" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=18;fontStyle=0;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=宋体;fontSize=18;" vertex="1" parent="epAysZkqnSIW3r6k0jum-3">
+          <mxGeometry x="45" y="67.5" width="10" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=宋体;fontSize=18;" vertex="1" parent="epAysZkqnSIW3r6k0jum-3">
+          <mxGeometry x="45" y="267.5" width="10" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-6" value="系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=18;fontStyle=0;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="590" y="190" width="100" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=宋体;fontSize=18;" vertex="1" parent="epAysZkqnSIW3r6k0jum-6">
+          <mxGeometry x="45" y="67.5" width="10" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=宋体;fontSize=18;" vertex="1" parent="epAysZkqnSIW3r6k0jum-6">
+          <mxGeometry x="45" y="267.5" width="10" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-9" value="访问首页并请求车辆列表" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=宋体;fontSize=18;" edge="1" parent="1" source="epAysZkqnSIW3r6k0jum-4" target="epAysZkqnSIW3r6k0jum-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="452.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-10" value="展示完整车辆数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontFamily=宋体;fontSize=18;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="319.99999999999994" as="targetPoint" />
+            <mxPoint x="635" y="319.99999999999994" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-12" value="提交查询条件" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;fontFamily=宋体;fontSize=18;" edge="1" parent="1" source="epAysZkqnSIW3r6k0jum-5" target="epAysZkqnSIW3r6k0jum-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="512.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-14" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=51;dashed=1;height=18;fontSize=18;fontFamily=宋体;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="427.5" width="300" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="epAysZkqnSIW3r6k0jum-13" value="更新显示匹配结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontFamily=宋体;fontSize=18;" edge="1" parent="epAysZkqnSIW3r6k0jum-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="102.5" as="targetPoint" />
+            <mxPoint x="250" y="102.5" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
